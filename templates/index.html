@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block sidebar %}
+    <form method="post" action="result">
+    <p>Введите ваши фразу и буквы</p>
+    <p><tr><td>Phrase: </td><td><input name="phrase" type="text" width="60"></td></tr></p>
+    <p><tr><td>Letters: </td><td><input name="letters" type="text" width="60"></td></tr></p>
+    <i>When you're ready, click this button:</i>
+    <p><input value="Do it!" type="submit"></p>
+    </form>
+{% endblock %}

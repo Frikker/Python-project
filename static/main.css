@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext);
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2) format('woff2');
+}
+* {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+a{
+    color: #fff;
+}
+.container{
+    width: 980px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+#page_wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    height: 100%;
+
+}
+/* header */
+#header{
+    background: url(header.png) no-repeat center fixed;
+    background-size: cover;
+    flex: 1 0 auto;
+}
+#logo{
+    float: left;
+    width: 50%;
+}
+
+#contact_info > ul > li{
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #787878;
+    font-size: 28px;
+    width: 50%;
+    list-style: none;
+    text-align: right;
+    float: right;
+    padding: 5px;
+}
+/*menu*/
+#menu{
+    background: url("menubar.png");
+    min-height: 40px;
+}
+
+#menu > .container > ul{
+    font-size: 0;
+    text-align: center;
+}
+
+#menu > .container > ul > li{
+    display: inline-block;
+    position: relative;
+    border-left: 1px solid #fff;
+
+}
+
+#menu > .container > ul > li:first-child{
+    border-left: none;
+}
+
+#menu > .container > ul > li a{
+    font-family: "PTSans", sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#menu > .container > ul > li a:hover{
+    text-decoration: underline;
+
+}
+
+/*slider*/
+#slider-bar{
+    background: #F8F8F8;
+}
+
+
+/*content*/
+#content{
+    min-height: 500px;
+}
+#sidebar{
+    background: #787878;
+    float: left;
+    width: 20%;
+    min-height: 400px;
+    padding: 25px;
+    margin-right: 20px;
+    color: #fff;
+
+}
+#sidebar h1{
+    font-size: 32px;
+}
+#sidebar a{
+    color: #fff;
+}
+#filling{
+    float: left;
+    width: 70%;
+    min-height: 400px;
+    padding: 25px 0;
+    color: #787878
+}
+#filling h1{
+    font-weight: normal;
+    font-size: 32px;
+}
+
+/*footer*/
+#footer{
+    background: #787878;
+    min-height: 140px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    flex: 1 0 auto;
+}
+#filling td{
+    padding: 5px;
+    border: solid 1px brown;
+}
+#copyright{
+    float: left;
+    width: 40%;
+}
+#link{
+    float: left;
+    width: 20%;
+}
+#link > ul{
+    margin: 0;
+}
+#link > ul > li{
+    list-style: none;
+}
+#creator_logo{
+    float: right;
+    width: 20%;
+    text-align: left;
+}
+
+#slider {
+    overflow: hidden;
+}
